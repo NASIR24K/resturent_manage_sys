@@ -1,0 +1,53 @@
+/* Testimonial Section */
+#testimonial-section {
+    background-image: url('src/images/food.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .testimonial {
+    padding: 50px 0;
+   color: black;
+  }
+  
+  .testimonial .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .owl-carousel .owl-item {
+    text-align: center;
+  }
+  
+  .testimonial-content {
+    text-align: center;
+    color: #000;
+  }
+  
+  .testimonial-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .testimonial-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .testimonial-quote {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .testimonial-quote .quote-mark {
+    font-size: 48px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+  }
+  
