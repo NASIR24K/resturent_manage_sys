@@ -1,53 +1,43 @@
-/* Testimonial Section */
-#testimonial-section {
-    background-image: url('src/images/food.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-  .testimonial {
-    padding: 50px 0;
-   color: black;
-  }
-  
-  .testimonial .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  .owl-carousel .owl-item {
-    text-align: center;
-  }
-  
-  .testimonial-content {
-    text-align: center;
-    color: #000;
-  }
-  
-  .testimonial-image img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .testimonial-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
-  
-  .testimonial-quote {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-top: 20px;
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  .testimonial-quote .quote-mark {
-    font-size: 48px;
-    position: absolute;
-    top: -10px;
-    left: 0;
-  }
-  
+#test-section{
+  background-color: #ddd;
+}
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-caption {
+  width: 80%;
+  background: none;
+  text-align: center;
+  color: #000;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-caption h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.carousel-caption img {
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ border: 2px solid #000;
+}
+
+.carousel-caption p {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.carousel-caption .btn {
+  margin-top: 1.5rem;
+}
