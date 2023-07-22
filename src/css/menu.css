@@ -1,10 +1,4 @@
-* { box-sizing: border-box; }
 
-body {
-  font-family: sans-serif;
-}
-
-/* ---- button ---- */
 
 .button {
   display: inline-block;
