@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Services</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <!-- Add custom CSS for column colors and hover effects -->
+    <style>
+        /* Define Polygon colors */
+        .polygon-online {
+            background-color: #F4A261; /* Light Orange */
+        }
+        .polygon-private {
+            background-color: #2A9D8F; /* Green */
+        }
+        .polygon-chef {
+            background-color: #E76F51; /* Salmon */
+        }
+
+        /* Add hover effect */
+        .service-column:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+
+        /* Center text and add padding */
+        .service-text {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Icon styles */
+        .service-icon {
+            font-size: 2rem;
+            color: #fff; /* White */
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container mt-5">
+        <h2 class="text-center">Our Services</h2>
+        <div class="row mt-4">
+            <!-- Online Ordering and Reservations -->
+            <div class="col-md-4 mb-4 service-column polygon-online">
+                <div class="service-text">
+                    <i class="fas fa-utensils service-icon"></i>
+                    <h3 class="mt-3">Online Ordering and Reservations</h3>
+                    <p>Restaurants may have an online platform or mobile app that allows customers to make reservations and place orders ahead of time. This service streamlines the dining process and ensures that customers can secure a table or their favorite dishes without waiting.</p>
+                </div>
+            </div>
+
+            <!-- Private Dining and Event Hosting -->
+            <div class="col-md-4 mb-4 service-column polygon-private">
+                <div class="service-text">
+                    <i class="fas fa-glass-cheers service-icon"></i>
+                    <h3 class="mt-3">Private Dining and Event Hosting</h3>
+                    <p>Some restaurants offer private dining rooms or event hosting services. Customers can book these spaces for exclusive gatherings, celebrations, meetings, or parties, often with customized menus and personalized service.</p>
+                </div>
+            </div>
+
+            <!-- Chef's Table or Tasting Menu -->
+            <div class="col-md-4 mb-4 service-column polygon-chef">
+                <div class="service-text">
+                    <i class="fas fa-chef-hat service-icon"></i>
+                    <h3 class="mt-3">Chef's Table or Tasting Menu</h3>
+                    <p>High-end restaurants may offer a chef's table experience or tasting menu. This involves a specially curated menu, often with multiple courses, prepared by the chef. Customers can enjoy a unique and personalized dining experience with the opportunity to interact with the chef.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Font Awesome for icons (you can use other icon libraries as well) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <!-- Add Bootstrap JS and jQuery scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.min.js"></script>
+</body>
+</html>

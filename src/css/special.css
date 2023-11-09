@@ -1,0 +1,46 @@
+
+/* Define Polygon colors */
+.polygon-menu {
+    background-color: #ddd; /* Light Orange */
+}
+
+/* Add hover effect */
+.menu-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Center text and add padding */
+.menu-text {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Icon styles */
+.menu-icon {
+    font-size: 2rem;
+    color: #fff; /* White */
+    margin-bottom: 10px;
+}
+
+/* Style the Owl Carousel */
+.owl-carousel {
+    margin-top: 30px;
+}
+
+/* Customize navigation buttons for Owl Carousel */
+.owl-nav {
+    position: absolute;
+    top: 110%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.owl-prev, .owl-next {
+    font-size: 2rem;
+    color: #F4A261; /* Light Orange */
+}
+.owl-prev, .owl-next:hover {
+    font-size: 2rem;
+    color: #F4A261; /* Light Orange */
+}

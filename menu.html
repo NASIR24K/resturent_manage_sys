@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="src/images/logo.PNG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Bootstrap font awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Add Isotope CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.min.css">
+   <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>Downs Restaurant</title>
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/about.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/special.css">
+    <link rel="stylesheet" href="src/css/gellery.css">
+    <link rel="stylesheet" href="src/css/reservation.css">
+    <link rel="stylesheet" href="src/css/testimonial.css">
+    <link rel="stylesheet" href="src/css/blog.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/footerlast.css">
+  
+  </head>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="src/images/logo.png" class="rounded-circle" width="50" height="50">
+        NFSoft
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages.html">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gellery.html">Gallery</a>
+      </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservation.html">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <section id="section-menu">
+      <h1 class="text-center mt-5">Menu</h1>
+      <p class="text-center pb-5">Who are kinds of menus of this resturant?</p>
+      <div id="filters" class="d-grid gap-2 d-md-flexd-grid gap-2 d-md-flex justify-content-sm-center  justify-content-md-center d-grid gap-2 d-md-flex justify-content-lg-center button-group  justify-content-center">
+        <button class="button is-checked" data-filter="*">show all</button>
+        <button class="button" data-filter=".breakfast">Breakfast</button>
+        <button class="button" data-filter=".lunch">Lunch</button>
+        <button class="button" data-filter=".dinner">Dinner</button>
+        <button class="button" data-filter=":buffet">Buffet</button>
+        <button class="button" data-filter=".budget-meal">Budget-meal</button>
+      </div>
+      <div class="grid row mt-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 element-item breakfast" data-category="breakfast">
+          <div class="card mb-3 ">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="src/images/menu.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                      <h4 class="card-title">Menu Item 1</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">$10</h6>
+                      <p class="card-text">Description of Menu Item 1</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 element-item lunch" data-category="lunch">
+          <div class="card mb-3 ">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="src/images/menu1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                      <h4 class="card-title">Menu Item 1</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">$10</h6>
+                      <p class="card-text">Description of Menu Item 1</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 element-item dinner budget-meal" data-category="dinner">
+          <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="src/images/menu2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                      <h4 class="card-title">Menu Item 1</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">$10</h6>
+                      <p class="card-text">Description of Menu Item 1</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 element-item buffet" data-category="buffet">
+          <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="src/images/menu3.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                      <h4 class="card-title">Menu Item 1</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">$10</h6>
+                      <p class="card-text">Description of Menu Item 1</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+  </section>
+
+  <section class="container mt-5">
+    <h2 class="text-center">Special Menu</h2>
+    <h6 class="text-center">
+        Explore Our Special Menu Filled with Exquisite Dishes Crafted to Satisfy Every Palate and Occasion.
+    </h6>
+    <div class="row mt-4">
+        <!-- Use Owl Carousel for the Special Menu items -->
+        <div class="owl-carousel">
+            <!-- Signature Steak -->
+            <div class="col-sm-12 col-md-12 col-lg-12  mb-4 menu-item polygon-menu">
+                <div class="menu-text text-center">
+                    <i class="fas fa-utensils menu-icon"></i>
+                    <h3 class="mt-3">Signature Steak</h3>
+                    <p>A mouthwatering, perfectly grilled steak served with a rich red wine reduction sauce, accompanied by truffle mashed potatoes and sautéed garlic spinach.</p>
+                </div>
+            </div>
+  
+            <!-- Seafood Extravaganza -->
+            <div class="col-sm-12 col-md-12 col-lg-12 mb-4 menu-item polygon-menu">
+                <div class="menu-text text-center">
+                    <i class="fas fa-fish menu-icon"></i>
+                    <h3 class="mt-3">Seafood Extravaganza</h3>
+                    <p>A delightful seafood platter featuring fresh lobster tail, jumbo shrimp, and scallops, all drizzled with a lemon-butter sauce and served with wild rice and grilled asparagus.</p>
+                </div>
+            </div>
+  
+            <!-- Vegan Delight -->
+            <div class="col-sm-12 col-md-12 col-lg-12 mb-4 menu-item polygon-menu">
+                <div class="menu-text text-muted">
+                    <i class="fas fa-leaf menu-icon"></i>
+                    <h3 class="mt-3">Vegan Delight</h3>
+                    <p>An exquisite vegan dish featuring roasted vegetable and quinoa-stuffed bell peppers, topped with a creamy cashew-based sauce and garnished with fresh herbs.</p>
+                </div>
+            </div>
+  
+            <!-- Mouthwatering Sushi Platter -->
+            <div class="col-sm-12 col-md-12 col-lg-12 mb-4 menu-item polygon-menu">
+                <div class="menu-text text-center">
+                    <i class="fas fa-fish menu-icon"></i>
+                    <h3 class="mt-3">Mouthwatering Sushi Platter</h3>
+                    <p>A sushi lover's dream with an assortment of fresh, hand-rolled sushi and sashimi, served with pickled ginger, wasabi, and soy sauce.</p>
+                </div>
+            </div>
+  
+            <!-- Gourmet Burger -->
+            <div class="col-sm-12 col-md-12 col-lg-12 mb-4 menu-item polygon-menu">
+                <div class="menu-text text-center">
+                    <i class="fas fa-hamburger menu-icon"></i>
+                    <h3 class="mt-3">Gourmet Burger</h3>
+                    <p>A juicy, gourmet burger made from a blend of prime beef cuts, topped with caramelized onions, crispy bacon, aged cheddar cheese, and a smoky barbecue aioli, served with truffle fries.</p>
+                </div>
+            </div>
+  
+            <!-- Decadent Chocolate Fondue -->
+            <div class="col-sm-12 col-md-12 col-lg-12 mb-4 menu-item polygon-menu">
+                <div class="menu-text text-center">
+                    <i class="fas fa-cookie menu-icon"></i>
+                    <h3 class="mt-3">Decadent Chocolate Fondue</h3>
+                    <p>Indulge in a dessert to remember with a rich, molten chocolate fondue served with an array of dippable treats, including strawberries, marshmallows, and pieces of cake.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-column">
+              <h2 class="footer-heading">Locations</h2>
+              <ul class="footer-icon-list">
+                <li><i class="fas fa-map-marker-alt"></i> Chamelibagh, Shantinagar, Dhaka</li>
+                <li><i class="fas fa-phone"></i> Phone: 123-456-7890</li>
+                <li><i class="fas fa-fax"></i> Fax: 123-456-7890</li>
+                <li><i class="fas fa-envelope"></i> nasir24k@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-column">
+              <h2 class="footer-heading">Terms [&] Policy</h2>
+              <ul class="footer-icon-list">
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Conditions</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-column">
+              <h2 class="footer-heading">Opening Hours</h2>
+              <ul class="footer-list">
+                <li>Monday: 9am - 6pm</li>
+                <li>Tuesday: 9am - 6pm</li>
+                <li>Wednesday: 9am - 6pm</li>
+                <li>Thursday: 9am - 6pm</li>
+                <li>Friday: 9am - 6pm</li>
+                <li>Saturday: Closed</li>
+                <li>Sunday: Closed</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-column">
+              <h2 class="footer-heading">Newsletter</h2>
+              <p class="footer-subheading">Stay up to date with our latest news</p>
+              <div class="footer-newsletter">
+                <input type="email" class="form-control rounded-25" placeholder="Enter your email">
+                <button class="btn btn-primary rounded-circle"><i class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: #ffff;">
+      <p class="footer-copy" >&copy; 2023 NFSoft limited. All rights reserved.</p>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav1">
+          <div class="footer-social-icons ml-auto">
+              <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-skype"></i></a>
+              <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+      </div>
+    </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+ 
+<!-- Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="src/js/menu.js"></script>
+<script>
+  // Initialize Owl Carousel
+  $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+          items: 1,
+          loop: true,
+          margin: 20,
+          nav: true,
+          navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+          dots: false
+      });
+  });
+</script>
+</body>
+</html>

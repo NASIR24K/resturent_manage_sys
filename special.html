@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Menu</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <!-- Add Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Add custom CSS for column colors and hover effects -->
+  <link rel="stylesheet" href="./src/css/special.css">
+</head>
+<body>
+    <section class="container mt-5">
+        <h2 class="text-center">Special Menu</h2>
+        <h6 class="text-center">
+            Explore Our Special Menu Filled with Exquisite Dishes Crafted to Satisfy Every Palate and Occasion.
+        </h6>
+        <div class="row mt-4">
+            <!-- Use Owl Carousel for the Special Menu items -->
+            <div class="owl-carousel">
+                <!-- Signature Steak -->
+                <div class="col-md-4 mb-4 menu-item polygon-menu">
+                    <div class="menu-text">
+                        <i class="fas fa-utensils menu-icon"></i>
+                        <h3 class="mt-3">Signature Steak</h3>
+                        <p>A mouthwatering, perfectly grilled steak served with a rich red wine reduction sauce, accompanied by truffle mashed potatoes and sautéed garlic spinach.</p>
+                    </div>
+                </div>
+
+                <!-- Seafood Extravaganza -->
+                <div class="col-md-4 mb-4 menu-item polygon-menu">
+                    <div class="menu-text">
+                        <i class="fas fa-fish menu-icon"></i>
+                        <h3 class="mt-3">Seafood Extravaganza</h3>
+                        <p>A delightful seafood platter featuring fresh lobster tail, jumbo shrimp, and scallops, all drizzled with a lemon-butter sauce and served with wild rice and grilled asparagus.</p>
+                    </div>
+                </div>
+
+                <!-- Vegan Delight -->
+                <div class="col-md-4 mb-4 menu-item polygon-menu">
+                    <div class="menu-text">
+                        <i class="fas fa-leaf menu-icon"></i>
+                        <h3 class="mt-3">Vegan Delight</h3>
+                        <p>An exquisite vegan dish featuring roasted vegetable and quinoa-stuffed bell peppers, topped with a creamy cashew-based sauce and garnished with fresh herbs.</p>
+                    </div>
+                </div>
+
+                <!-- Mouthwatering Sushi Platter -->
+                <div class="col-md-4 mb-4 menu-item polygon-menu">
+                    <div class="menu-text">
+                        <i class="fas fa-fish menu-icon"></i>
+                        <h3 class="mt-3">Mouthwatering Sushi Platter</h3>
+                        <p>A sushi lover's dream with an assortment of fresh, hand-rolled sushi and sashimi, served with pickled ginger, wasabi, and soy sauce.</p>
+                    </div>
+                </div>
+
+                <!-- Gourmet Burger -->
+                <div class="col-md-4 mb-4 menu-item polygon-menu">
+                    <div class="menu-text">
+                        <i class="fas fa-hamburger menu-icon"></i>
+                        <h3 class="mt-3">Gourmet Burger</h3>
+                        <p>A juicy, gourmet burger made from a blend of prime beef cuts, topped with caramelized onions, crispy bacon, aged cheddar cheese, and a smoky barbecue aioli, served with truffle fries.</p>
+                    </div>
+                </div>
+
+                <!-- Decadent Chocolate Fondue -->
+                <div class="col-md-4 mb-4 menu-item polygon-menu">
+                    <div class="menu-text">
+                        <i class="fas fa-cookie menu-icon"></i>
+                        <h3 class="mt-3">Decadent Chocolate Fondue</h3>
+                        <p>Indulge in a dessert to remember with a rich, molten chocolate fondue served with an array of dippable treats, including strawberries, marshmallows, and pieces of cake.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Font Awesome for icons (you can use other icon libraries as well) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <!-- Add Bootstrap JS and jQuery scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.min.js"></script>
+    <!-- Add Owl Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        // Initialize Owl Carousel
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 20,
+                nav: true,
+                navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+                dots: false
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="src/images/logo.PNG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Bootstrap font awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Add Isotope CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.min.css">
+   <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>Downs Restaurant</title>
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/about.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/gellery.css">
+    <link rel="stylesheet" href="src/css/reservation.css">
+    <link rel="stylesheet" href="src/css/testimonial.css">
+    <link rel="stylesheet" href="src/css/blog.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/footerlast.css">
+  
+  </head>
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="src/images/logo.png" class="rounded-circle" width="50" height="50">
+      NFSoft
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gellery.html">Gallery</a>
+    </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reservation.html">Reservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+<!--Start reservation section-->
+
+<section id="reservation">
+  <h1 class="text-center mt-5">Reserve</h1>
+  <p class="text-center">
+    Reserve a Memorable Dining Experience at Our Acclaimed Restaurant – Where Culinary Excellence Meets Unforgettable Hospitality.
+  </p>
+<div class="image-container mt-5">
+  <img src="src/images/reservation.jpg" alt="Image" class="img-fluid">
+      <div class="row overlay">
+        <div class="col-md-6">
+          <div class="overlay-content">
+            <h2>Make a Reservation</h2>
+          <h3>Book a Table</h3>
+         <p>Please fill out the form below to make a reservation. We will contact you to confirm your reservation.</p>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="overlay-content2">
+            <form action="process_form.php" method="post">
+              <h1 class="resizable-border">Make a Reservation</h1>
+              <div class="form-group">
+                <div class="input-inline">
+                  <label for="username">Name:</label>
+                  <input type="text" id="username" name="username" placeholder="Enter Your Name..." required>
+                </div>
+                <div class="input-inline">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Enter Your Email..." required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="Package">Package</label>
+                <input type="text" id="Package" name="Package" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Description:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write a mesage.." required></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Make Reservation">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+</div>
+</section>
+<!--end reservation section-->
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-column">
+            <h2 class="footer-heading">Locations</h2>
+            <ul class="footer-icon-list">
+              <li><i class="fas fa-map-marker-alt"></i> Chamelibagh, Shantinagar, Dhaka</li>
+              <li><i class="fas fa-phone"></i> Phone: 123-456-7890</li>
+              <li><i class="fas fa-fax"></i> Fax: 123-456-7890</li>
+              <li><i class="fas fa-envelope"></i> nasir24k@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-column">
+            <h2 class="footer-heading">Terms [&] Policy</h2>
+            <ul class="footer-icon-list">
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Conditions</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-column">
+            <h2 class="footer-heading">Opening Hours</h2>
+            <ul class="footer-list">
+              <li>Monday: 9am - 6pm</li>
+              <li>Tuesday: 9am - 6pm</li>
+              <li>Wednesday: 9am - 6pm</li>
+              <li>Thursday: 9am - 6pm</li>
+              <li>Friday: 9am - 6pm</li>
+              <li>Saturday: Closed</li>
+              <li>Sunday: Closed</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-column">
+            <h2 class="footer-heading">Newsletter</h2>
+            <p class="footer-subheading">Stay up to date with our latest news</p>
+            <div class="footer-newsletter">
+              <input type="email" class="form-control rounded-25" placeholder="Enter your email">
+              <button class="btn btn-primary rounded-circle"><i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: #ffff;">
+    <p class="footer-copy" >&copy; 2023 NFSoft limited. All rights reserved.</p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav1">
+        <div class="footer-social-icons ml-auto">
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-skype"></i></a>
+            <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+          </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+ 
+<!-- Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</body>
+</html>

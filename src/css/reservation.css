@@ -57,7 +57,7 @@
     left: 42%;
     width: 15%;
     height: 3px; /* Adjust the height of the border here */
-    background-color: #4c035d; /* Adjust the color of the border here */
+    background-color: #d000ff; /* Adjust the color of the border here */
     cursor: row-resize;
     text-align: left;
     pointer-events: none;
@@ -96,7 +96,7 @@
     display: block;
     width: 100%;
     padding: 8px;
-    border: 2px solid #4c035d;
+    border: 2px solid #000;
     border-radius: 1px;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -109,7 +109,7 @@
       border: 2px solid #d000ff;
     }
     .overlay-content2 .form-group input[type="submit"] {
-    background-color: #4c035d;
+    background-color: #000;
     color: white;
     padding: 10px 20px;
     margin-top: 10px;

@@ -49,4 +49,19 @@ footer {
     flex-grow: 1;
     margin-right: 10px;
   }
+    /* Style the icons */
+    .footer-icon-list li i {
+      background-color: #f8f9fa; /* Change background color on hover */
+      border: 2px solid #ddd; /* Set border color */
+      border-radius: 50%; /* Make the icon circle */
+      padding: 7px; /* Add some padding to make it circular */
+      margin-right: 10px; /* Add some spacing between the icon and text */
+      color: #000; /* Set icon color */
+      transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+    }
   
+    /* Change icon color on hover */
+    .footer-icon-list li i:hover {
+      background-color: #007bff; /* Change background color on hover */
+      color: #fff; /* Change icon color on hover */
+    }
